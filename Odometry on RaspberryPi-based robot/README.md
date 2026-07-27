@@ -53,7 +53,7 @@ A simple vector-based graph visualization is also included for coherent interpre
 ## Tools and Environment
 
 - **Python**
-- **ROS**
+- **ROS2 Humble**
 - **Raspberry Pi-based robot chassis**
 - **PMW3901 sensor**
 - **Optical slot sensors**
