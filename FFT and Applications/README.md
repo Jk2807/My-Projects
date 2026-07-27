@@ -51,9 +51,9 @@ A MATLAB script is included to visualize and evaluate the effectiveness of FFT-b
 - **MATLAB**  
 - Core numerical and signal-processing functions for FFT/IFFT and plotting.
 
-## Demo Video
+## Presentation Video
 
-A demonstration video of the project is available on Google Drive:
+A presentation video of the project featuring our group is available on Google Drive:
 
 - **Google Drive Link:** https://drive.google.com/file/d/1OO5JwQTRx_D1DdmqEQS66U9yw-vtUOYs/view?usp=sharing
 
