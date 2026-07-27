@@ -33,6 +33,5 @@ An embedded AI project that uses ESP32-CAM and Edge Impulse for real-time electr
 * **Machine Learning & Data:** TensorFlow, Keras
 * **Robotics & Hardware:** ROS 2, KiCad, Raspberry Pi
 * **Systems:** Linux (Ubuntu/Zsh), Git
-* **Project link — 8-bit Computer:** [8-bit Computer](https://github.com/Jk2807/My-Projects/blob/main/8-bit%20Computer/README.md)
 
 *Feel free to explore the individual project directories for source code, setup instructions, and detailed technical documentation!*
