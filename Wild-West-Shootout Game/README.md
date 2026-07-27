@@ -19,9 +19,8 @@ The implementation demonstrates core beginner-level programming concepts through
 - **Project Name:** Russian Roulette  
 - **Duration:** (Course project period)  
 - **Type:** Intro to Programming Class Project  
-- **Role:** Co-coder  
+- **Role:** Lead Programmer  
 - **Institution:** Vietnamese-German University (VGU)  
-- **Demo Video:** *Watch Here*
 
 
 ## Objectives
@@ -43,7 +42,6 @@ The implementation demonstrates core beginner-level programming concepts through
 
 ## Features
 
-- Text-based Russian Roulette gameplay in the terminal.
 - Interactive user input and real-time game responses.
 - Simple and structured logic suitable for beginner learning.
 - Visual Studio solution setup for easy build and execution.
@@ -60,4 +58,4 @@ The implementation demonstrates core beginner-level programming concepts through
 ## Notes
 
 - This project was built for educational purposes to reinforce introductory C++ programming skills.
-- Since the project includes many UI images/assets, a full version, including Visual Studio files, graphical assets and a demo video is also provided: **https://drive.google.com/drive/folders/1BXbG1eOTysKQesnV-5ryPZMDdGlgj-vT?usp=sharing**.
+- Since the project includes many UI images/assets, a full version, including Visual Studio solution files, graphical assets and a demo video is also provided: **https://drive.google.com/drive/folders/1BXbG1eOTysKQesnV-5ryPZMDdGlgj-vT?usp=sharing**.
