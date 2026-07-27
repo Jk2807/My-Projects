@@ -1,4 +1,4 @@
-# Russian Roulette (C Console Game)
+# Wild-West-Shootout (C Console Game)
 
 
 ## Overview
@@ -16,7 +16,7 @@ The implementation demonstrates core beginner-level programming concepts through
 
 ## Project Information
 
-- **Project Name:** Russian Roulette  
+- **Project Name:** Wild West Shootout C game  
 - **Duration:** (Course project period)  
 - **Type:** Intro to Programming Class Project  
 - **Role:** Lead Programmer  
@@ -38,6 +38,7 @@ The implementation demonstrates core beginner-level programming concepts through
 - **Random Number Generation**
 - **Console Input/Output**
 - **Basic Game Logic Design**
+- **Basic C Graphical Libraries**
 
 
 ## Features
