@@ -13,6 +13,9 @@ A MATLAB-based communication systems project that simulates and evaluates a 2×2
 ### **[Odometry on RaspberryPi-based Robot Using ROS and Python](./Odometry%20on%20RaspberryPi-based%20robot)**
 A robotics and embedded systems project that implements an odometry module for a Raspberry Pi-based mobile robot using ROS 2 and Python. The project integrates motion sensors (PMW3901 optical flow sensor and infrared slot wheel encoders), computes position and orientation (yaw angle) using differential kinematics and coordinate transformation matrices, and implements sensor cross-correction to discard erroneous encoder readings during instances of physical obstruction or wheel slip.
 
+### **[Facial Emotion Classification](Facial%20Emotion%20Classification)**
+This project develops a deep learning model to classify facial emotions using the FER-2013 dataset, targeting a 70–80% validation accuracy. To overcome data imbalances and hardware limits, it utilizes a VGG-19 transfer learning architecture optimized with data augmentation, class balancing, and a multi-phase training strategy.
+
 ### **[Application of the FFT - Noise Filtering](FFT%20and%20Applications)**
 A Digital Signal Processing project that explores the theory and practical applications of the Fast Fourier Transform in MATLAB. The project demonstrates FFT-based signal analysis through two use cases: Heartbeat sensing and Audio noise filtering, using a threshold-based denoising algorithm.
 
