@@ -58,14 +58,14 @@ After card/puzzle detection, the program maps the layout digitally and applies a
 
 ## Learning Outcome
 
-This project strengthened practical understanding of real-time image processing pipelines, camera-based detection workflows, and the integration of classical algorithms (backtracking) with computer vision systems to solve structured puzzles automatically.
+This project strengthened practical understanding of real-time image processing pipelines, camera-based detection workflows, and the integration of classical algorithms (backtracking) with computer vi[...]
 
 
 ## How to Run
 
 For setup steps, dependencies, and execution instructions, please refer to:
 
-**`HowtoRun`**
+**[HowtoRun.txt](./HowtoRun.txt)**
 
 
 ## Notes
