@@ -61,9 +61,9 @@ A simple vector-based graph visualization is also included for coherent interpre
 
 ## External Video Demo
 
-A demonstration video of the robot odometry workflow is available here:
+Videos for operation and abnormality demo, alongside the project can be found in the following Google Drive link:
 
-- **Video Demo:** [Google Drive Folder](https://drive.google.com/drive/folders/1nFWj1f0-TUXj9HnZ1L2tu5h1vtE7Omyi?usp=sharing)
+- **[Google Drive Folder](https://drive.google.com/drive/folders/1nFWj1f0-TUXj9HnZ1L2tu5h1vtE7Omyi?usp=sharing)** 
 
 
 ## Learning Outcome
