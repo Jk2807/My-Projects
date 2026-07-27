@@ -1,8 +1,12 @@
 # 8-bit Computer
+
+
 ## Overview
-This project is a breadboard-based **8-bit computer** built as part of the **Digital System Design** module project at VGU.  
+This project is a breadboard-based **8-bit computer** built as part of the **Digital System Design** module project at VGU.
+
 It focuses on understanding computer architecture from the ground up by implementing core processing and memory components using discrete numerical IC chips.
-Inspired by **Ben Eater’s** educational architecture, this project demonstrates low-level hardware design principles such as logic-gate composition, register operations, memory access, clocking, and system-level integration.
+
+Inspired by **Ben Eater’s** educational architecture, this project demonstrates low-level hardware design principles such as logic-gate composition, register operations, memory access, and clocking.
 
 
 ## Project Information
@@ -11,16 +15,18 @@ Inspired by **Ben Eater’s** educational architecture, this project demonstrate
 - **Type:** Module Project (Digital System Design)  
 - **Role:** Co-Leader, Component Simulation (Proteus), Circuit Implementation  
 - **Inspiration:** Ben Eater
-  
+
 
 ## What We Built
 As one of the largest in-class projects, we co-led the end-to-end development of an 8-bit computer on breadboards using IC chips.
+
 
 ### Main contributions
 - Co-led planning, architecture breakdown, and implementation workflow.
 - Built and wired computer modules physically on breadboards.
 - Designed and simulated key components in **Proteus 8** before hardware implementation.
 - Verified signal behavior, module interfacing, and timing consistency during integration.
+
 
 ### Core components explored
 - Clock module  
@@ -62,7 +68,8 @@ Special inspiration and conceptual guidance came from **Ben Eater’s** educatio
 
 
 ## Notes
-This repository section documents a hardware-focused academic project.  
+This repository section documents a hardware-focused academic project.
+
 Future enhancements may include:
 - cleaner modular documentation for each subsystem,
 - instruction set documentation,
