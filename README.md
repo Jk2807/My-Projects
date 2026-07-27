@@ -16,7 +16,7 @@ A robotics and embedded systems project that implements an odometry module for a
 ### **[Application of the FFT - Noise Filtering](FFT%20and%20Applications)**
 A Digital Signal Processing project that explores the theory and practical applications of the Fast Fourier Transform in MATLAB. The project demonstrates FFT-based signal analysis through two use [...]
 
-### 8-bit Computer
+### **[8-bit Computer](8-bit%20Computer)**
 A breadboard-based digital system design project that builds an 8-bit computer using discrete IC chips. Inspired by Ben Eater’s educational computer architecture, this project explores clocking,[...]
 
 ### Ubongo Card Solver using Computer Vision
