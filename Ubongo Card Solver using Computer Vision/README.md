@@ -58,7 +58,7 @@ After card/puzzle detection, the program maps the layout digitally and applies a
 
 ## Learning Outcome
 
-This project strengthened practical understanding of real-time image processing pipelines, camera-based detection workflows, and the integration of classical algorithms (backtracking) with computer vi[...]
+This project strengthened practical understanding of real-time image processing pipelines, camera-based detection workflows, and the integration of classical algorithms (backtracking) with computer vision
 
 
 ## How to Run
