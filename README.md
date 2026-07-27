@@ -22,7 +22,7 @@ A breadboard-based digital system design project that builds an 8-bit computer u
 ### **[Ubongo Card Solver using Computer Vision](Ubongo%20Card%20Solver%20using%20Computer%20Vision)**
 A computer vision project developed in Python and OpenCV for detecting and processing Ubongo cards from either a single image or a live camera stream. After detection, the system converts the puzz[...]
 
-### Wild West Shootout Game
+### **[Wild West Shootout Game](Wild-West-Shootout%20Game)**
 A console-based C game project created as part of an introductory programming course. The project demonstrates beginner programming concepts such as control flow, random number generation, input/o[...]
 
 ### **[Electrical Components Classification & Identification](Electrical%20components%20classification%20&%20identification)**
