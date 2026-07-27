@@ -1,0 +1,15 @@
+﻿  items.c
+C:\Users\thait\OneDrive\Desktop\Wild West Shootout\Wild West Shootout\RussianRoulette\items.c(177,42): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\thait\OneDrive\Desktop\Wild West Shootout\Wild West Shootout\RussianRoulette\items.c(191,42): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\thait\OneDrive\Desktop\Wild West Shootout\Wild West Shootout\RussianRoulette\items.c(323,5): warning C4013: 'drawItem' undefined; assuming extern returning int
+C:\Users\thait\OneDrive\Desktop\Wild West Shootout\Wild West Shootout\RussianRoulette\items.c(413,30): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\thait\OneDrive\Desktop\Wild West Shootout\Wild West Shootout\RussianRoulette\items.c(413,37): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\thait\OneDrive\Desktop\Wild West Shootout\Wild West Shootout\RussianRoulette\items.c(414,36): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\thait\OneDrive\Desktop\Wild West Shootout\Wild West Shootout\RussianRoulette\items.c(414,44): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\thait\OneDrive\Desktop\Wild West Shootout\Wild West Shootout\RussianRoulette\items.c(415,36): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\thait\OneDrive\Desktop\Wild West Shootout\Wild West Shootout\RussianRoulette\items.c(415,48): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\thait\OneDrive\Desktop\Wild West Shootout\Wild West Shootout\RussianRoulette\items.c(416,35): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\thait\OneDrive\Desktop\Wild West Shootout\Wild West Shootout\RussianRoulette\items.c(416,47): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  RussianRoulette.vcxproj -> C:\Users\thait\OneDrive\Desktop\Wild West Shootout\Wild West Shootout\x64\Debug\RussianRoulette.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
