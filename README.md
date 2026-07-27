@@ -14,9 +14,6 @@ A MATLAB-based communication systems project that simulates and evaluates a 2×2
 ### **[Odometry on RaspberryPi-based Robot Using ROS and Python](./Odometry%20on%20RaspberryPi-based%20robot)**
 A robotics and embedded systems project that implements an odometry module for a Raspberry Pi-based mobile robot using ROS 2 and Python. The project integrates motion sensors, computes position an[...]
 
-### Electrical Components Classification & Identification
-An embedded AI project that uses ESP32-CAM and Edge Impulse for real-time electrical component detection and classification. The system combines computer vision, edge inference, and object-oriente[...]
-
 ### Application of the FFT - Noise Filtering
 A Digital Signal Processing project that explores the theory and practical applications of the Fast Fourier Transform in MATLAB. The project demonstrates FFT-based signal analysis through two use [...]
 
@@ -28,6 +25,9 @@ A computer vision project developed in Python and OpenCV for detecting and proce
 
 ### Wild West Shootout Game
 A console-based C game project created as part of an introductory programming course. The project demonstrates beginner programming concepts such as control flow, random number generation, input/o[...]
+
+### **[Electrical Components Classification & Identification](Electrical%20components%20classification%20&%20identification)**
+An embedded AI project that uses ESP32-CAM and Edge Impulse for real-time electrical component detection and classification. The system combines computer vision, edge inference, and object-oriente[...]
 
 ## 💻 Tech Stack & Tools
 * **Languages:** Python, MATLAB, C/C++
