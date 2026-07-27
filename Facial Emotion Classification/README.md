@@ -10,7 +10,7 @@ It addresses significant challenges associated with imbalanced and noisy data, a
 
 - **Project Name:** Facial Emotion Classification
 - **Duration:** March 2026 – July 2026
-- **Type:** Module Project (Intelligent Systems) - Group 1
+- **Type:** Module Project (Intelligent Systems)
 - **Role:** Lead Coder
 - **Dataset:** FER-2013 (Kaggle)
 
