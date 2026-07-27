@@ -1,0 +1,58 @@
+# Ubongo Solver Project - Setup Guide
+
+## 1. Prerequisites
+- Python 3.x installed on your system.
+- Requires Python packages:
+	opencv-python
+	numpy
+	matplotlib
+- Visual Studio Code (VS Code) installed.
+
+## 2. Parameters from the Logitech Ghub software
+Ensure the parameters are set as follows:
+Zoom: 140% (Range: 100% – 500%, restricted to 180% at 1280x720)
+Position: Center
+
+Auto Exposure: Off
+Shutter Speed: 1/800s (Range: 1/2000s – 1/17s)
+ISO: 100 (Range: 100 – 1600)
+
+Auto White Balance: On
+Brightness: 60%
+Contrast: 100%
+Saturation: 100%
+Sharpness: 75%
+
+Auto Focus: Off
+Manual Focus: 0%
+
+## 3. Environment Setup
+Open the terminal in VS Code (Ctrl+` or View > Terminal) and install the required libraries by running the following command:
+pip install opencv-python numpy matplotlib
+
+## 4. Project Structure
+Ensure your project folder contains the following files in the exact same directory:
+- main.py (Main execution script for live camera feed)
+- ImgPro.py (Core image processing and contour extraction functions)
+- solver.py (Backtracking algorithm for solving the puzzle)
+- StaticImageCode.txt (OPTIONAL!! - Containing the code for static image processing. Copy the content to main.py when used)
+- Images/ (OPTIONAL!! - A sub-folder containing static test images, e.g., 'yellow_tilted.jpeg')
+
+## 5. How to Run the Project in VS Code
+**Option A: Live Camera Mode**
+*Note:* The script currently uses `cv.VideoCapture(1)`. If your external camera does not turn on, try changing the index to another ID depending on your connected devices.
+1. Open `main.py` in VS Code.
+2. Click the "Run Python File" button (Play icon) in the top right corner, or type `python main.py` in the terminal and press Enter.
+
+**Option B: Static Image Mode (Recommended for Testing)**
+1. Backup the contents of main.py
+2. Open `StaticImageCode.txt` and copy its entire contents.
+3. Paste the contents into main.py.
+4. Ensure the image path in the code (e.g., `IMAGE = Path("Images/yellow_tilted.jpeg")`) accurately points to an existing image.
+5. Run the script just like in Option A.
+
+## 6. Troubleshooting & Best Practices
+- **Camera Autofocus (Logitech G920/C920):** Autofocus can severely disrupt the shape detection pipeline. Please open the Logitech G Hub software running in the background, disable autofocus, and manually adjust the focus until the puzzle cards are perfectly sharp.
+- **Background Environment:** Always place the Ubongo cards on a clean, plain, and white-colored background. Cluttered backgrounds will result in incorrect contour extraction.
+- **Performance Issues:** Running the solver continuously on a live feed can cause VS Code or your PC to freeze. If this happens, stick to the Static Image Mode, or modify the camera code to only capture and solve when a specific key is pressed.
+
