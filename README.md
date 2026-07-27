@@ -11,7 +11,7 @@ Simulation and evaluation of an OFDM MIMO System
 
 A MATLAB-based communication systems project that simulates and evaluates a 2×2 MIMO-OFDM transmission chain. The implementation focuses on step-by-step signal processing, including data encoding[...]
 
-### Odometry on RaspberryPi-based Robot Using ROS and Python
+### **[Odometry on RaspberryPi-based Robot Using ROS and Python](./Odometry%20on%20RaspberryPi-based%20robot)**
 A robotics and embedded systems project that implements an odometry module for a Raspberry Pi-based mobile robot using ROS 2 and Python. The project integrates motion sensors, computes position an[...]
 
 ### Electrical Components Classification & Identification
