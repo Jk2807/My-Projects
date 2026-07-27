@@ -6,7 +6,7 @@ Below is an overview of the key academic projects I have developed and documente
 
 ## 📁 Projects Overview
 
-### [Simulation and Evaluation of OFDM MIMO System Using MATLAB](./Simulation and Evaluation of OFDM MIMO System Using MATLAB/)
+### **[Simulation and Evaluation of OFDM MIMO System Using MATLAB](./Simulation and Evaluation of OFDM MIMO System Using MATLAB/)**
 A MATLAB-based communication systems project that simulates and evaluates a 2×2 MIMO-OFDM transmission chain. The implementation focuses on step-by-step signal processing, including data encoding[...]
 
 ### Odometry on RaspberryPi-based Robot Using ROS and Python
