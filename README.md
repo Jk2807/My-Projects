@@ -27,7 +27,7 @@ A computer vision project developed in Python and OpenCV for detecting and proce
 ### Wild West Shootout Game
 A console-based C game project created as part of an introductory programming course. The project demonstrates beginner programming concepts such as control flow, random number generation, input/o[...]
 
-### 💻 Tech Stack & Tools
+#### 💻 Tech Stack & Tools
 * **Languages:** Python, MATLAB, C/C++
 * **Machine Learning & Data:** TensorFlow, Keras
 * **Robotics & Hardware:** ROS 2, KiCad, Raspberry Pi
