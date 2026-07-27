@@ -19,7 +19,7 @@ A Digital Signal Processing project that explores the theory and practical appli
 ### **[8-bit Computer](./8-bit%20Computer)**
 A breadboard-based digital system design project that builds an 8-bit computer using discrete IC chips. Inspired by Ben Eater’s educational computer architecture, this project explores clocking,[...]
 
-### Ubongo Card Solver using Computer Vision
+### **[Ubongo Card Solver using Computer Vision](Ubongo%20Card%20Solver%20using%20Computer%20Vision)**
 A computer vision project developed in Python and OpenCV for detecting and processing Ubongo cards from either a single image or a live camera stream. After detection, the system converts the puzz[...]
 
 ### Wild West Shootout Game
