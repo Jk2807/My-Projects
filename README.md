@@ -5,7 +5,6 @@ Welcome to my university projects repository! I am a third-year Electrical and C
 Below is an overview of the key academic projects I have developed and documented in this repository:
 
 ## 📁 Projects Overview
-Simulation and evaluation of an OFDM MIMO System
 
 ### **[Simulation and Evaluation of OFDM MIMO System Using MATLAB](./Simulation%20and%20evaluation%20of%20an%20OFDM%20MIMO%20System)**
 
@@ -14,7 +13,7 @@ A MATLAB-based communication systems project that simulates and evaluates a 2×2
 ### **[Odometry on RaspberryPi-based Robot Using ROS and Python](./Odometry%20on%20RaspberryPi-based%20robot)**
 A robotics and embedded systems project that implements an odometry module for a Raspberry Pi-based mobile robot using ROS 2 and Python. The project integrates motion sensors, computes position an[...]
 
-### Application of the FFT - Noise Filtering
+### **[Application of the FFT - Noise Filtering](FFT%20and%20Applications)**
 A Digital Signal Processing project that explores the theory and practical applications of the Fast Fourier Transform in MATLAB. The project demonstrates FFT-based signal analysis through two use [...]
 
 ### 8-bit Computer
