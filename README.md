@@ -1,82 +1,26 @@
-# My-Projects
+# 🚀 An Nguyen | Electrical & Computer Engineering
 
-A curated portfolio of projects in **C, Python, MATLAB, and C++**, built to strengthen core programming, problem-solving, and computational thinking skills.
+Welcome to my university projects repository! I am a third-year Electrical and Computer Engineering student, currently studying at Vietnamese-German University (VGU). My passion lies at the intersection of embedded systems, wireless communications, and machine learning. I enjoy taking a hands-on approach to hardware-software integration, whether that's tuning control nodes for robotics, building deep learning models, or optimizing low-level system architectures. 
 
-## 👋 Overview
+Below is an overview of the key academic projects I have developed and documented in this repository:
 
-This repository showcases my hands-on work across multiple languages, including:
-- low-level and systems-oriented programming in C/C++
-- scripting and automation in Python
-- numerical computing and simulation in MATLAB
+## 📁 Projects Overview
 
-I use this repo to document learning progress, implement practical ideas, and build a strong software foundation.
+### 📡 MIMO-OFDM Link-Level Simulator
+A robust link-level simulator for a MIMO-OFDM communication system built entirely in MATLAB. Rather than relying on built-in black-box functions, this project manually implements the core communication chain from scratch. It features custom-built inverse discrete Fourier transform engines, matrix transformations, and channel equalization scripts to deeply analyze signal processing.
 
-## 🧰 Tech Stack
+### 🤖 ROS 2 Differential Drive Tracking Robot
+A hands-on embedded robotics project featuring a differential drive robot controlled via a Raspberry Pi using the ROS 2 middleware framework. This project includes custom Python control nodes, detailed PID tuning variables, kinematic formulas, and sensor integration, alongside custom component symbols designed in KiCad for the hardware side.
 
-- **C** (43%)
-- **Python** (28.8%)
-- **MATLAB** (18.1%)
-- **C++** (10.1%)
-
-## 📁 Repository Structure
-
-- `C/` — core programming exercises, logic building, and systems fundamentals  
-- `Python/` — scripts, utilities, and general-purpose problem solving  
-- `MATLAB/` — numerical methods, simulations, and matrix-based computation  
-- `C++/` — OOP practice and algorithmic implementations  
-
-> I’m continuously adding and refining projects in each folder.
-
-## 🌟 Featured Work
-
-> Replace these with your best 3–5 projects.
-
-- **Project 1** — Short one-line description and what it solves  
-- **Project 2** — Key concepts used (e.g., file I/O, data structures, plotting, OOP)  
-- **Project 3** — Outcome/result (e.g., faster workflow, simulation output, clean CLI tool)
-
-## 🚀 How to Run
-
-Clone the repository:
-
-```bash
-git clone https://github.com/Jk2807/My-Projects.git
-cd My-Projects
-```
-
-### C
-```bash
-gcc filename.c -o app
-./app
-```
-
-### C++
-```bash
-g++ filename.cpp -o app
-./app
-```
-
-### Python
-```bash
-python filename.py
-```
-
-### MATLAB
-Run `.m` files directly in MATLAB (Editor or Command Window).
-
-## 📈 What I’m Improving
-
-- Writing cleaner, modular code
-- Better documentation and project organization
-- Stronger DSA and optimization fundamentals
-- Building end-to-end mini projects with real-world relevance
-
-## 🤝 Connect
-
-If you’d like to discuss any project, collaborate, or share feedback:
-
-- GitHub: [@Jk2807](https://github.com/Jk2807)
+### 🧠 Facial Emotion Recognition (FER-2013) Deep Learning Model
+A machine learning project focused on computer vision, specifically building and evaluating models on the FER-2013 dataset. The code details the complete training pipeline for multi-layer convolutional neural networks (CNNs) utilizing TensorFlow and Keras. It incorporates data augmentation techniques, early stopping callbacks, and transfer learning optimizations to improve model accuracy.
 
 ---
 
-_Thanks for visiting this repository!_
+### 💻 Tech Stack & Tools
+* **Languages:** Python, MATLAB, C/C++
+* **Machine Learning & Data:** TensorFlow, Keras
+* **Robotics & Hardware:** ROS 2, KiCad, Raspberry Pi
+* **Systems:** Linux (Ubuntu/Zsh), Git
+
+*Feel free to explore the individual project directories for source code, setup instructions, and detailed technical documentation!*
