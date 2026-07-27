@@ -59,4 +59,4 @@ A modified/extended version of the workflow can also be used for **parameter tun
 - **Jupyter Notebook / Google Colab** *(if used)*
 - **TensorFlow / Keras** or **PyTorch** *(keep the one actually used)*
 - **OpenCV**
-- **NumPy, Pandas, Matplotlib
+- **NumPy, Pandas, Matplotlib**
