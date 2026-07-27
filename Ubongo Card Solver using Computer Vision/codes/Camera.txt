@@ -1,0 +1,112 @@
+from pathlib import Path
+
+import numpy as np
+import cv2 as cv
+import sys
+from ImgPro import *
+from solver import *
+
+DebugMode = False
+
+FIXEDWIDTH = 400
+FIXEDHEIGHT = 600
+
+#1. Static images
+# IMAGE = Path("Images/yellow_tilted.jpeg")
+
+# Set to True to enable plots and images
+DrawPlot = True
+
+kernel = np.array([[ 0, -1,  0],
+                   [-1,  5, -1],
+                   [ 0, -1,  0]])
+
+# Open the default camera
+# My camera ID = 4
+cam = cv.VideoCapture(4)
+
+# Get the default frame width and height
+width = int(cam.get(cv.CAP_PROP_FRAME_WIDTH))
+height = int(cam.get(cv.CAP_PROP_FRAME_HEIGHT))
+
+
+while True:
+    ret, frame = cam.read()
+
+    # Write the frame to the output file
+    # out.write(frame)
+
+    # Display the captured frame
+    cv.imshow('Camera', frame)
+    # Press 'q' to exit the loop
+    # if cv.waitKey(1) == ord('q'):
+    #     break
+
+    # Release the capture and writer objects
+    # cam.release()
+    try:
+        # Sharpening the image
+        img = cv.filter2D(frame, -1, kernel)
+        # img = cv.medianBlur(img,3
+
+
+        #print out the image
+        if img is None:
+            sys.exit("Could not read the image.")
+
+        if (width > height):
+            img = cv.rotate(img, cv.ROTATE_90_CLOCKWISE)
+            width, height = height, width
+
+        if DebugMode == True:
+            # Perpendicular perspective Transformation
+            source_window = 'Source'
+            cv.imshow(source_window, img)
+
+        Card = Perpendicular(img, width, height)
+        if DebugMode == True:
+            cv.imshow('Original Card', Card)
+        Card = cv.resize(Card, (int(FIXEDWIDTH), int(FIXEDHEIGHT)))
+
+        # SANDBOX!!!!!
+
+        PiecesImg, PuzzleImg = CardCut(Card)
+
+        if DebugMode == True:
+            cv.imshow('Pieces', PiecesImg)
+            cv.imshow('Puzzle', PuzzleImg)
+
+        # Code to take the average saturation of blue_tilted.jpeg-----------------------
+        # PiHsv = cv.cvtColor(PiecesImg, cv.COLOR_BGR2HSV)
+        # PuHsv = cv.cvtColor(PuzzleImg, cv.COLOR_BGR2HSV)
+        #
+        # avgPi = np.average([p[1] for p in PiHsv])
+        # avgPu = np.average([p[1] for p in PuHsv])
+        #
+        # print("average Pi = ", avgPi)
+        # print("average Pu = ", avgPu)
+
+
+        # Represent the puzzle as a matrix
+        PuzzleMat = GetPuzzle(PuzzleImg)
+
+        print(PuzzleMat)
+
+        # ------------------------------------ Solver Part -----------------------------------------------
+
+
+        # Count number of white area (represented by 1s)
+        total_field_blocks = int(np.sum(PuzzleMat == 1))
+
+        # Use pieces' shape and total play area for approximation
+        extracted_pieces = process_pieces_image(PiecesImg, total_field_blocks)
+
+        # Run solver function
+        if len(extracted_pieces) > 0:
+            solve_ubongo(PuzzleMat, extracted_pieces)
+    except:
+        print("PROCESS FAILED!! RETRYING...")
+        continue
+    # -----------------------------------------
+    # k = cv.waitKey(0)
+
